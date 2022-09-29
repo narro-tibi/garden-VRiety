@@ -7,10 +7,10 @@ TerrainLayer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: StylizedSand_Rocks
-  m_DiffuseTexture: {fileID: 0}
-  m_NormalMapTexture: {fileID: 0}
-  m_MaskMapTexture: {fileID: 0}
-  m_TileSize: {x: 2, y: 2}
+  m_DiffuseTexture: {fileID: 2800000, guid: 99d9327acc77a2b4d94b2bf02b4dcadb, type: 3}
+  m_NormalMapTexture: {fileID: 2800000, guid: ab99cb82919b93c47a8e2a4a32e2c308, type: 3}
+  m_MaskMapTexture: {fileID: 2800000, guid: 77f2fab3550e5444585bddde2466ab14, type: 3}
+  m_TileSize: {x: 20, y: 20}
   m_TileOffset: {x: 0, y: 0}
   m_Specular: {r: 0, g: 0, b: 0, a: 0}
   m_Metallic: 0
