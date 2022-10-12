@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 53d5d356066595d48a8f98ab7969c193
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: dda12f74ff9116a42b23482252b2c482, type: 3}
+  _instancesCopy:
+  - {fileID: 11400000, guid: fe906c34ff916334fa0918b48f51a927, type: 2}
+  _fileAsset: {instanceID: 0}
+  _assetPath: Assets/Materials/sandstone.sbsar
