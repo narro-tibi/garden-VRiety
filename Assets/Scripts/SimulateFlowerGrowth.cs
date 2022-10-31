@@ -14,7 +14,7 @@ public class SimulateFlowerGrowth : MonoBehaviour
     // private Vector3 _maxScale;
     // private Vector3 _minPosition;
     // private Vector3 _maxPosition;
-    private float _yUndergroundPosition = -1.25f;
+    private float _yUndergroundPosition = -1.05f;
 
     [Header("Growth Configuration")]
     [Tooltip("Set speed of growth.")]
@@ -49,7 +49,7 @@ public class SimulateFlowerGrowth : MonoBehaviour
         // Set minPosition to object's initial position (for X and Z-values).
         Vector3 _minPosition = transform.localPosition;
         // Set Y-Offset so the object is underground.
-        _minPosition.y = _yUndergroundPosition;
+        _minPosition.y += _yUndergroundPosition;
         // Set maximum position to object's initial position.
         Vector3 _maxPosition = transform.localPosition;
        
