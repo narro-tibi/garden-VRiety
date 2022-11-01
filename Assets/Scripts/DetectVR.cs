@@ -13,7 +13,6 @@ public class DetectVR : MonoBehaviour
     public bool startInVR = true;
     public GameObject xrOrigin;
     public GameObject desktopCharacter;
-    public GameObject desktopCamera;
 
     #endregion
 
@@ -25,7 +24,6 @@ public class DetectVR : MonoBehaviour
         {
             xrOrigin.SetActive(false);
             desktopCharacter.SetActive(true);
-            desktopCamera.SetActive(true);
         }
         else
         {
@@ -49,13 +47,11 @@ public class DetectVR : MonoBehaviour
                 Debug.Log($"XRLoader is null.");
                 xrOrigin.SetActive(false);
                 desktopCharacter.SetActive(true);
-                desktopCamera.SetActive(true);
                 return;
             }
 
             Debug.Log($"XRLoader is NOT null.");
             desktopCharacter.SetActive(false);
-            desktopCamera.SetActive(false);
             xrOrigin.SetActive(true);
         }
         
