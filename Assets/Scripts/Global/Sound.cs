@@ -1,0 +1,21 @@
+using UnityEngine;
+
+[System.Serializable]
+public class Sound
+{
+    /// <summary>
+    /// Custom Sound Class.
+    /// </summary>
+
+    public string name;
+    public AudioClip clip;
+
+    [Range(0f, 1f)]
+    public float volume = 1f;
+    [Range(.1f, 3f)]
+    public float pitch = 1f;
+    public bool isLoop;
+
+    [HideInInspector]
+    public AudioSource source;
+}
