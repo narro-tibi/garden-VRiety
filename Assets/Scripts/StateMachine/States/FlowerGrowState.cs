@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 
@@ -9,7 +10,14 @@ namespace Flowers.State
         /// <summary>
         /// This State disables the dug out hole and enables the flower again.
         /// The flower simulates growth with a simple lerp.
+        /// This is the final stage of flower progression.
         /// </summary>
+
+        #region Delegates
+
+        public static event Action<string> flowerHasGrownSound;
+
+        #endregion
 
         #region Variables
 
@@ -49,6 +57,8 @@ namespace Flowers.State
             
             // Enables Script and scales and transforms the flower back up to its original size.
             _scale.enabled = true;
+            // broadcast the message that progress has been made.
+            flowerHasGrownSound?.Invoke("Progress");
         }
 
         // This functions marks the end of the current State and is automatically called by the State Machine.
