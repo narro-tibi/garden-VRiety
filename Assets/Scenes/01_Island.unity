@@ -1116,7 +1116,6 @@ MonoBehaviour:
   _flowerRenderer: {fileID: 437761383}
   _flowerMaterial: {fileID: 2100000, guid: 0799a1e95665ef14f8fe2cbcd4ba3dc4, type: 2}
   _witheredMaterial: {fileID: 2100000, guid: f140a1ecfb7229343b41facb8d770303, type: 2}
-  _flowerHasGrown: 0
 --- !u!114 &437761386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1143,19 +1142,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _speed: 2
   _duration: 5
---- !u!114 &437761393
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 437761384}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21c982ef2210eae438c731703b541331, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _progressSoundSource: {fileID: 0}
 --- !u!4 &446865412 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5686134208185136530, guid: 1fd3a7c43c8190f4d8c167ebde694364,
@@ -1969,7 +1955,6 @@ MonoBehaviour:
     volume: 1
     pitch: 1
     isLoop: 0
-    hasCooldown: 0
     source: {fileID: 0}
 --- !u!1001 &630123122
 PrefabInstance:
@@ -6179,7 +6164,6 @@ MonoBehaviour:
   _flowerRenderer: {fileID: 1892652436}
   _flowerMaterial: {fileID: 2100000, guid: 0799a1e95665ef14f8fe2cbcd4ba3dc4, type: 2}
   _witheredMaterial: {fileID: 2100000, guid: f140a1ecfb7229343b41facb8d770303, type: 2}
-  _flowerHasGrown: 0
 --- !u!114 &1892652439
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7431,7 +7415,6 @@ MonoBehaviour:
   _flowerRenderer: {fileID: 510281596}
   _flowerMaterial: {fileID: 2100000, guid: 0799a1e95665ef14f8fe2cbcd4ba3dc4, type: 2}
   _witheredMaterial: {fileID: 2100000, guid: f140a1ecfb7229343b41facb8d770303, type: 2}
-  _flowerHasGrown: 0
 --- !u!114 &1598562692685114257
 MonoBehaviour:
   m_ObjectHideFlags: 0
