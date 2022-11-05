@@ -63,6 +63,7 @@ MonoBehaviour:
   _flowerRenderer: {fileID: 3476329251752623062}
   _flowerMaterial: {fileID: 2100000, guid: 0799a1e95665ef14f8fe2cbcd4ba3dc4, type: 2}
   _witheredMaterial: {fileID: 2100000, guid: f140a1ecfb7229343b41facb8d770303, type: 2}
+  _flowerHasGrown: 0
 --- !u!65 &579605492813026816
 BoxCollider:
   m_ObjectHideFlags: 0
