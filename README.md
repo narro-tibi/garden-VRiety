@@ -10,7 +10,7 @@ Technical: A prototype to showcase Unity's VR capabilities while adhering to pro
 # Features
 <ul>
   <li>Functional XR Rig</li>
-  <li>Alternative First Person Controller if no VR Headset is connected</li>
+  <li>Alternative Camera Controller if no VR Headset is connected</li>
   <li>Easily expandable Flower State Machine
     <ol>
       <li>Withered State (dark gray flower) - dig out flower with trowel</li>
