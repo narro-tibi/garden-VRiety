@@ -33,7 +33,7 @@ public class ObjectPool_Ingredients : MonoBehaviour
         }
     }
 
-    public GameObject GetIngredient()
+    public GameObject SpawnIngredient()
     {
         if (ingredientPool.Count > 0)
         {
@@ -43,7 +43,7 @@ public class ObjectPool_Ingredients : MonoBehaviour
         }
         else
         {
-            // if Pool grows beyond initial pool size, add randomization as to which object to spawn
+            // if Pool grows beyond initial pool size, add randomization to determine which object to spawn
             GameObject ingredient = Instantiate(ingredientPrefabs[Random.Range(0, ingredientPrefabs.Length)]);
             return ingredient;
         }

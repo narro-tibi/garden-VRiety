@@ -24,8 +24,9 @@ public class Spawner_Ingredients : MonoBehaviour
         timeSinceSpawn += Time.deltaTime;
         if (timeSinceSpawn >= timeToSpawn)
         {
-            GameObject newCritter = objectPool.GetIngredient();
-            newCritter.transform.position = _ingredientSpawnPosition;
+            GameObject newIngredient = objectPool.SpawnIngredient();
+            Debug.Log("initial posiiton of new Ingredient" + gameObject.transform.position);
+            newIngredient.transform.position = _ingredientSpawnPosition;
             timeSinceSpawn = 0f;
         }
     }
